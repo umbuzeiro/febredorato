@@ -3,18 +3,26 @@
 @tailwind utilities;
 
 :root {
+  --links: 4, 217, 57; 
+  --g1: 178, 237, 74; /* verde claro */
+  --g2: 137, 217, 17; /* verde */
+  --g3: 45, 166, 75; /* verde medio */
+  --g4: 27, 140, 87;   /* verde escuro */
+  --white: 242, 242, 235; /* branco */
+  --blue: 0, 26, 56; /* azul */
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 242, 242, 235;
+  --background-end-rgb: 242, 242, 235;
 }
 
-@media (prefers-color-scheme: dark) {
+ /* @media (prefers-color-scheme: dark) {
   :root {
+    --links: 4, 217, 57; 
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+}  */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,4 +32,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+a:active{
+  background-color: rgba(0, 0, 0, 0);
 }
