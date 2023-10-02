@@ -7,7 +7,7 @@ export function HeaderLinks() {
     return <>
         <div className="flex flex-wrap p-2 flex-row sm:space-x-2 md:space-x-2 lg:space-y-0 lg:space-x-6 grow place-content-center hover:text-b text-sm">
 
-            <HeaderLink Icon={FolderIcon} text="Quem somos" path="/" />
+            <HeaderLink Icon={FolderIcon} text="Quem somos" path="/about" />
             <HeaderLink Icon={UsersIcon} text="Produtos e soluções" path="/" links={[
                 { "href": "/solutions/", "label": "Serviços Elétricos" },
                 { "href": "/solutions/", "label": "Refrigeração" },

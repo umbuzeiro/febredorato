@@ -50,7 +50,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={pangea.className}>{children}</body>
+      <body className={pangea.className}>
+        <Header/>
+        {children}</body>
 
     </html>
     
