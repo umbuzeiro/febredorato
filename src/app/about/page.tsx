@@ -11,30 +11,30 @@ export default function About() {
                 <ul className=" list-disc ml-10 text-gray-800 text-md font-semibold">
                     <li>
                         <Link href="/solucoes/">Febre do Rato Serviços Elétricos</Link>
-                        <p className="font-normal mb-4 text-justify">Nossa empresa-mãe, a Febre do Rato Serviços Elétricos, é o epicentro da nossa atuação. Aqui, dedicamos nossos esforços para fornecer serviços de alta qualidade que abrangem toda a cadeia de valor elétrico, desde a geração até a distribuição. Investimos em tecnologia de ponta e práticas sustentáveis para garantir que nossa energia seja confiável e ecologicamente responsável.</p>
+                        <p className="font-normal md:text-base sm:text-sm mb-4 text-justify">Nossa empresa-mãe, a Febre do Rato Serviços Elétricos, é o epicentro da nossa atuação. Aqui, dedicamos nossos esforços para fornecer serviços de alta qualidade que abrangem toda a cadeia de valor elétrico, desde a geração até a distribuição. Investimos em tecnologia de ponta e práticas sustentáveis para garantir que nossa energia seja confiável e ecologicamente responsável.</p>
                     </li>
                     <li><Link href="/solucoes/">Febre do Rato Refrigeração</Link>
-                        <p className="font-normal mb-4 text-justify">
+                        <p className="font-normal md:text-base sm:text-sm mb-4 text-justify">
                             Em sintonia com nosso compromisso com a sustentabilidade, a Febre do Rato Refrigeração desenvolve soluções inovadoras de refrigeração industrial, garantindo a eficiência energética e a redução de impactos ambientais. Nossos sistemas de refrigeração estão alinhados com os mais altos padrões de ecoeficiência.
                         </p>
                     </li>
                     <li><Link href="/solucoes/">Febre do Rato Solar e Eólica</Link>
-                        <p className="font-normal mb-4 text-justify">
+                        <p className="font-normal md:text-base sm:text-sm mb-4 text-justify">
                             Com um olhar voltado para o futuro, a Febre do Rato Solar e a Febre do Rato Eólica lideram o caminho na produção de energia limpa e renovável. Nossos projetos solares e eólicos aproveitam os recursos naturais de maneira responsável, contribuindo para a redução das emissões de carbono e promovendo um ambiente mais limpo.
                         </p>
                     </li>
                     <li><Link href="/solucoes/"></Link>Febre do Rato Termoelétrica
-                        <p className="font-normal mb-4 text-justify">
+                        <p className="font-normal md:text-base sm:text-sm mb-4 text-justify">
                             A Febre do Rato Termoelétrica é a vanguarda da geração de energia termelétrica eficiente. Utilizamos tecnologias avançadas para maximizar a eficiência e minimizar os impactos ambientais em nossas operações, mantendo um compromisso inabalável com a responsabilidade ambiental.
                         </p>
                     </li>
                     <li><Link href="/solucoes/">Febre do Rato Transmissão e Febre do Rato Engenharia</Link>
-                        <p className="font-normal mb-4 text-justify">
+                        <p className="font-normal md:text-base sm:text-sm mb-4 text-justify">
                             A Febre do Rato Transmissão é responsável pela distribuição confiável e eficaz de energia para comunidades e indústrias. Trabalhamos em conjunto com a Febre do Rato Engenharia para projetar e implementar infraestruturas de transmissão seguras e sustentáveis, garantindo o fornecimento contínuo de energia.
                         </p>
                     </li>
                     <li><Link href="/solucoes/">Febre do Rato Água e Esgoto</Link>
-                        <p className="font-normal mb-4 text-justify">
+                        <p className="font-normal md:text-base sm:text-sm mb-4 text-justify">
                             Não limitamos nossa atuação apenas ao setor elétrico. A Febre do Rato Água e Esgoto se dedica à gestão responsável dos recursos hídricos, desenvolvendo soluções para fornecer água limpa e sistemas eficientes de tratamento de esgoto, contribuindo assim para a preservação dos ecossistemas aquáticos.
                         </p>
                     </li>
