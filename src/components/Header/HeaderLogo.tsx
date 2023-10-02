@@ -6,7 +6,9 @@ export function HeaderLogo(){
 
     return <>
         <Link href="/">
-            <Image className="lg:ml-3 hover:scale-105 ease-in-out duration-300" alt="Logomarca" width={180} height={400} src="./neogessos.svg"/>
+            <div className="m-4 ml-4">
+            <Image className="lg:ml-12 hover:scale-105 ease-in-out duration-300 p-2" alt="Logomarca" width={100} height={200} src="/febre.png"/>
+            </div>
         </Link>
     
      </>
