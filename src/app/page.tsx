@@ -17,8 +17,10 @@ export default function Home() {
       <Section title="Produtos e soluções">
         <Sectors />
       </Section>
+      <h1 className='sm:ml-5 lg:ml-16 drop-shadow-sm sm:text-2xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-emerald-700 py-3 '>Práticas ESG</h1>
 
       <Banners />
+
     </>
   )
 }
