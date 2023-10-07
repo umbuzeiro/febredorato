@@ -13,7 +13,7 @@ export function Banner({ title, desc, url, img }: BannerProps) {
         //style={{ backgroundImage: `url(${img})` }}
         <>
             <section style={{ backgroundImage: `url(${img})` }} className="bg-no-repeat bg-center bg-cover sm:mx-2 md:mx-4 m-10 rounded-[18px] ">
-                <div className="z-0 rounded-[18px] bg-gradient-to-r from-emerald-950/50 to-emerald-700/10 drop-shadow-lg lg:h-[26rem] md:h-[30rem] sm:h-[36rem] min-h-full text-left flex flex-col items-start place-content-left place-content-between text-white">
+                <div className="z-0 rounded-[18px] bg-gradient-to-r from-emerald-950/50 to-emerald-700/10 drop-shadow-lg lg:h-[26rem] md:h-[30rem] sm:h-[32rem] min-h-full text-left flex flex-col items-start place-content-left place-content-between text-white">
                     {/* <Image className="relative -z-10 bg-no-repeat bg-center bg-cover rounded-[18px]" src={`${img}`} 
                     alt="se"
                     fill
