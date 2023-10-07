@@ -2,6 +2,7 @@ import { Header } from '@/components/Header/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
+import { Footer } from '@/components/Footer/Footer'
 
 const pangea = localFont({ 
   src: [
@@ -52,7 +53,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={pangea.className}>
         <Header/>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
 
     </html>
     
