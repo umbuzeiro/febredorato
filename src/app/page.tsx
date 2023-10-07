@@ -3,6 +3,7 @@ import { Banners } from '@/components/Banner/Banners'
 import { Educational } from '@/components/Educational/Educational'
 import { Header } from '@/components/Header/Header'
 import { Sectors } from '@/components/List/Sectors'
+import { Presentation } from '@/components/Presentation/Presentation'
 import { Section } from '@/components/Section'
 import { Menu } from '@headlessui/react'
 // init Swiper:
@@ -14,7 +15,7 @@ export default function Home() {
   return (
     <>
 
-
+      <Presentation/>
       <Section title="Produtos e soluções">
         <Sectors />
       </Section>
