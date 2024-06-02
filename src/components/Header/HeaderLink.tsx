@@ -51,5 +51,3 @@ export function HeaderLink({ text, path, arrow = false, Icon, links }: HeaderLin
         </div>
     </>
 }
-
-
